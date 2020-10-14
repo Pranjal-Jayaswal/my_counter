@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(54, 45, 45);
+}
+
+#bigi {
+    background-color: seagreen;
+    height: 30vh;
+    width: 100vh;
+    margin: auto;
+    position: relative;
+}
+
+#bigi>p {
+    position: absolute;
+    top: 2vh;
+    left: 27vh;
+    font-family: monospace;
+    color: rgb(26, 25, 27);
+    font-weight: 900;
+    font-size: larger;
+}
+
+#formm {
+    position: absolute;
+    top: 19vh;
+    left: 18vh;
+}
+
+#counterbtn {
+    position: absolute;
+    top: 19vh;
+    left: 68vh;
+}
+
+#counter {
+    margin: auto;
+    overflow: hidden;
+    position: static;
+    top: 4vh;
+    height: 6vh;
+    width: 8vh;
+    background-color: ivory;
+    margin-top: 3vh;
+}
+
+.box {
+    height: 6vh;
+    margin: 0%;
+    border-width: 2vh;
+    border-top: 4px solid red;
+}
